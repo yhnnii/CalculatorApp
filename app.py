@@ -1,3 +1,4 @@
+import math
 #some functions of calculator
 def add(x,y):
     return x+y
@@ -17,3 +18,5 @@ def devide(x,y):
 def power(x,y):
     return x**y
 
+def sqrtroot(x):
+    return math.sqrt(x)
