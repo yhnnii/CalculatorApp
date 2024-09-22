@@ -13,3 +13,7 @@ def devide(x,y):
     if y==0:
         return "ERROR, DEVIDE BY 0!/n Please try again"
     return x/y
+
+def power(x,y):
+    return x**y
+
