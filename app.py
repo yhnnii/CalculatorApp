@@ -41,6 +41,7 @@ print("6, square root")
 #execution
 
 while True:
+    print("Hello, welcome!")
     choice=input("Please Enter Operation Choice: ")
 
     if choice == "6":
@@ -72,3 +73,18 @@ while True:
             print(f"{num1} to the power of {num2} = {power(num1, num2)}")
     else:
         print("Invalid choice, please choose among 1,2,3,4,5,6")
+    
+
+    ans=input("Do you want to do another calculation? (Y/N): ")
+    print(ans)
+    if ans=="N" or ans=="n": 
+        print("Thanks for using the calculator!")
+        print("Have a good day!")
+        break
+    elif ans=="Y" or ans=="y":
+        print("let's do another calculation")
+        continue
+    else:
+        print("I don't understand, but I assume you want to do another calculation")
+        print("so let's do another one,haha")
+        continue
