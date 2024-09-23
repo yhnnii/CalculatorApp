@@ -14,7 +14,7 @@ def multiply(x,y):
     return x*y
 
 #option 4
-def devide(x,y):
+def divide(x,y):
     #y cannot be 0
     if y==0:
         return "ERROR, DEVIDE BY 0!/n Please try again"
@@ -45,7 +45,7 @@ while True:
 
     if choice == "6":
         try: 
-            num=float(input("Please enter number that you wish to do the square root: ")
+            num=float(input("Please enter number that you wish to do the square root: "))
         except ValueError:
             print("Invalid Input, enter number only")
             continue
