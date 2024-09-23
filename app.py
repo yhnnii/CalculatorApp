@@ -51,3 +51,24 @@ while True:
             continue
         
         print(f"square root of {num} = {sqrtroot(num)}")
+    
+    elif choice in ["1","2","3","4","5"]:
+        try:
+            num1 = float(input("Please enter first number: "))
+            num2 = float(input("Please enter second number: "))
+        except ValueError:
+            print("Invalid input, enter number only")
+            continue
+
+        if choice == "1":
+            print(f"{num1} + {num2} = {add(num1, num2)}")
+        elif choice == "2":
+            print(f"{num1} - {num2} = {substract(num1, num2)}")
+        elif choice == "3":
+            print(f"{num1} * {num2} = {multiply(num1, num2)}")
+        elif choice == "4":
+            print(f"{num1} / {num2} = {divide(num1, num2)}")
+        elif choice == "5":
+            print(f"{num1} to the power of {num2} = {power(num1, num2)}")
+    else:
+        print("Invalid choice, please choose among 1,2,3,4,5,6")
