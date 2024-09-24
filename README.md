@@ -7,4 +7,8 @@ A simple calculator that supports basic arithmetic operations like addition, sub
 - Error handling for division by zero
 - Extendable for more operations (e.g., square root, exponentiation)
 
+## How to run
+- Clone the repository
+- Run app.py
+- follow the instructions
 
