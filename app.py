@@ -1,5 +1,5 @@
 import math
-#some functions of calculator
+#some functions of calculator, change
 
 #option 1
 def add(x,y):
